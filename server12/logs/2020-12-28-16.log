@@ -1,0 +1,191 @@
+[20:15:09] [Server thread/INFO]: Starting minecraft server version 1.12
+[20:15:09] [Server thread/INFO]: Loading properties
+[20:15:09] [Server thread/INFO]: Default game type: CREATIVE
+[20:15:09] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-596221b-9a1fc1e (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[20:15:10] [Server thread/INFO]: Debug logging is disabled
+[20:15:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:15:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:15:10] [Server thread/INFO]: Generating keypair
+[20:15:10] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[20:15:10] [Server thread/INFO]: Using default channel type
+[20:15:11] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[20:15:11] [Server thread/ERROR]: Could not load 'plugins\DamageIndicator-1.1.4.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: ProtocolLib
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:216) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:298) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:205) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:544) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+[20:15:11] [Server thread/INFO]: [ChristmasMonsters] Loading ChristmasMonsters v1.4
+[20:15:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:15:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:15:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:15:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:15:11] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[20:15:11] [Server thread/INFO]: Preparing level "server"
+[20:15:11] [Server thread/INFO]: -------- World Settings For [server] --------
+[20:15:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:15:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:15:11] [Server thread/INFO]: View Distance: 10
+[20:15:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:15:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:15:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:15:11] [Server thread/INFO]: Mob Spawn Range: 4
+[20:15:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:15:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:15:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[20:15:11] [Server thread/INFO]: Random Lighting Updates: false
+[20:15:11] [Server thread/INFO]: Structure Info Saving: true
+[20:15:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[20:15:11] [Server thread/INFO]: Max TNT Explosions: 100
+[20:15:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:15:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:15:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:15:11] [Server thread/INFO]: -------- World Settings For [server_nether] --------
+[20:15:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:15:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:15:11] [Server thread/INFO]: View Distance: 10
+[20:15:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:15:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:15:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:15:11] [Server thread/INFO]: Mob Spawn Range: 4
+[20:15:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:15:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:15:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[20:15:11] [Server thread/INFO]: Random Lighting Updates: false
+[20:15:11] [Server thread/INFO]: Structure Info Saving: true
+[20:15:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[20:15:11] [Server thread/INFO]: Max TNT Explosions: 100
+[20:15:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:15:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:15:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:15:11] [Server thread/INFO]: -------- World Settings For [server_the_end] --------
+[20:15:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:15:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:15:11] [Server thread/INFO]: View Distance: 10
+[20:15:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:15:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:15:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:15:11] [Server thread/INFO]: Mob Spawn Range: 4
+[20:15:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:15:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:15:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:15:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[20:15:11] [Server thread/INFO]: Random Lighting Updates: false
+[20:15:11] [Server thread/INFO]: Structure Info Saving: true
+[20:15:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[20:15:11] [Server thread/INFO]: Max TNT Explosions: 100
+[20:15:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:15:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:15:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:15:12] [Server thread/INFO]: Preparing start region for level 0 (Seed: 999)
+[20:15:13] [Server thread/INFO]: Preparing spawn area: 0%
+[20:15:14] [Server thread/INFO]: Preparing spawn area: 26%
+[20:15:15] [Server thread/INFO]: Preparing spawn area: 83%
+[20:15:15] [Server thread/INFO]: Preparing start region for level 1 (Seed: 999)
+[20:15:16] [Server thread/INFO]: Preparing spawn area: 70%
+[20:15:16] [Server thread/INFO]: Preparing start region for level 2 (Seed: 999)
+[20:15:17] [Server thread/INFO]: [ChristmasMonsters] Enabling ChristmasMonsters v1.4
+[20:15:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:15:17] [Server thread/INFO]: Done (5,986s)! For help, type "help" or "?"
+[20:15:30] [User Authenticator #1/INFO]: UUID of player Hnum is 527e92a5-689b-3130-86b8-5e77cac96aef
+[20:15:30] [Server thread/INFO]: Hnum[/192.168.0.106:55102] logged in with entity id 197 at ([server]-390.69999998807907, 70.0, 309.29703332259623)
+[20:16:15] [Server thread/ERROR]: Could not pass event CreatureSpawnEvent to ChristmasMonsters v1.4
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:499) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:484) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callCreatureSpawnEvent(CraftEventFactory.java:283) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.World.addEntity(World.java:1041) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.WorldServer.addEntity(WorldServer.java:1112) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.ItemMonsterEgg.spawnCreature(ItemMonsterEgg.java:173) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.ItemMonsterEgg.a(ItemMonsterEgg.java:155) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.ItemMonsterEgg.a(ItemMonsterEgg.java:55) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.ItemStack.placeItem(ItemStack.java:166) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:505) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:944) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:37) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:1) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:747) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.NoSuchFieldError: ZOMBIFIED_PIGLIN
+	at org.askgaming.christmasmonsters.events.SpawnEntityEvent.onSpawn(SpawnEntityEvent.java:33) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot.jar:git-Spigot-596221b-9a1fc1e]
+	... 23 more
+[20:16:21] [Server thread/ERROR]: Could not pass event CreatureSpawnEvent to ChristmasMonsters v1.4
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:499) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:484) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callCreatureSpawnEvent(CraftEventFactory.java:283) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.World.addEntity(World.java:1041) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.WorldServer.addEntity(WorldServer.java:1112) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.ItemMonsterEgg.spawnCreature(ItemMonsterEgg.java:173) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.ItemMonsterEgg.a(ItemMonsterEgg.java:155) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.ItemMonsterEgg.a(ItemMonsterEgg.java:55) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.ItemStack.placeItem(ItemStack.java:166) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:505) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:944) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:37) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:1) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:747) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [spigot.jar:git-Spigot-596221b-9a1fc1e]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.NoSuchFieldError: ZOMBIFIED_PIGLIN
+	at org.askgaming.christmasmonsters.events.SpawnEntityEvent.onSpawn(SpawnEntityEvent.java:33) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot.jar:git-Spigot-596221b-9a1fc1e]
+	... 23 more
+[20:16:39] [Server thread/INFO]: Hnum lost connection: Disconnected
+[20:16:39] [Server thread/INFO]: Hnum left the game
